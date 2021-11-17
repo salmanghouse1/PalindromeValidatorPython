@@ -17,37 +17,16 @@ single parameter like so:
 is_palindrome(value: str) -> bool
 ```
 
-###  Evaluation
+# Palindrome Validator
 
-* `(/2)` Write a function called `is_palindrome` in a Python module called
-`palindrome.py`.
-* `(/1)` Write your tests in a module called `test_palindrome.py`
-* `(/1)` The `is_palindrome` function must accept a single parameter
-* `(/2)` The function may return either `True` or `False`, or raise a
-  `ValueError`.
-* `(/4)` Use a `deque` container and its unique methods to determine if the
-  value provided to the function is a palindrome
+## Purpose
 
-Using TDD, assert the following statements in tests. Only write one test at a
-time, make it pass using code. Commit each step and push to Github before
-moving on to the next assertion.  It is possible for a subsequent test to
-already pass without having to write additional code.
+A palindrome is  a word, verse, or sentence (such as "Able was I ere I saw
+Elba") or a number (such as 1881) that reads the same backward or forward
+[(Merriam-Webster)](https://www.merriam-webster.com/dictionary/palindrome)
 
-**Do not write all the tests, then all the code or vice-versa.**
+## Built With
+* Python
 
-- `(/1)` `is_palindrome` raises a `ValueError` when not provided with a value
-  that is  an instance of `str`.
-- `(/1)` `is_palindrome` returns `False` when called with an empty string.
-- `(/1)` `is_palindrome` returns `True` if called with `"a"`.
-- `(/1)` `is_palindrome` returns `True` if called with `"bb"`.
-- `(/1)` `is_palindrome` returns `False` is called with `"abc"`.
-- `(/1)` `is_palindrome` returns `True` when called with `"laval"`.
-- `(/1)` `is_palindrome` returns `False` when called with `"toronto"`.
-- `(/1)` `is_palindrome` returns `True` when called with `"Able was I ere I saw
-  Elba"`.
-
-**Note**: this function must accept any value, not just respond to the
-scenarios listed above.
-
-The Travis CI build must pass. 1% will be deducted for each reported code style
-error.
+## Contribution
+Made with ❤️ by [Salman Ghouse](http://www.salmanwebdeveloper.com)
